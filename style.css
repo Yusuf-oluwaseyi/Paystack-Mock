@@ -33,7 +33,7 @@ body {
 }
 
 /* nav bar */
-#nav {
+#header {
     background-color: #f1fef4;
     /* position: sticky; */
 }
@@ -43,10 +43,13 @@ body {
     font-weight: 800;
     padding-left: 10px;
 }
-.link {
+#header li a {
     color: #011B33;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
+}
+#header li a:hover{
+    color: #0ba4db;
 }
 
 
@@ -54,14 +57,15 @@ body {
 /* hero */
 #hero {
     background-color: #f1fef4;
-    padding: 120px 60px;
+    padding: 120px 20px;
 }
 #hero h1 {
     font-family: 'Roboto';
-    font-size: 48px;
+    font-size: 3.5rem;
     font-weight: 800;
-    width: 50%;
-    padding-bottom: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    text-align: left;
 }
 #hero p {
     color: #011B33;
@@ -69,10 +73,10 @@ body {
     line-height: 30px;
     letter-spacing: -0.2px;
     font-weight: 400;
-    width: 45%;
-    padding-bottom: 10px;
+    width: 50%;
+    margin-bottom: 10px;
 }
-#hero .white {
+#hero .white{
     background-color: #3bb75e;
     color: #fff;
     cursor: pointer;
@@ -83,8 +87,9 @@ body {
     width: 240px;
     margin-right: 20px;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
     margin-top: 10px;
+    display: inline-block;
 }
 #hero span a {
     color: #3bb75e;
@@ -102,4 +107,12 @@ body {
 #hero .feature p {
     font-size: 14px;
     font-weight: normal;
+}
+
+/* media query */
+@media (max-width: 477px) {
+    #hero h1 {
+        width: 100%;
+        font-size: 24px ;
+    }   
 }
