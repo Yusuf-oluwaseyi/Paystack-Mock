@@ -22,10 +22,6 @@ body {
     margin-top: 5px;
 }
 
-
-.section-p1 {
-    padding: 5px 40px;
-}
 /* button */
 .normal {
     background-color: #3bb75e;
@@ -35,6 +31,7 @@ body {
 /* nav bar */
 #header {
     background-color: #f1fef4;
+    padding-left: 40px;
     /* position: sticky; */
 }
 .logo {
@@ -57,15 +54,16 @@ body {
 /* hero */
 #hero {
     background-color: #f1fef4;
-    padding: 120px 20px;
+    padding: 120px 40px;
 }
 #hero h1 {
     font-family: 'Roboto';
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 800;
     width: 60%;
     margin-bottom: 10px;
     text-align: left;
+    line-height: 1.2;
 }
 #hero p {
     color: #011B33;
