@@ -89,23 +89,53 @@ body {
     margin-top: 10px;
     display: inline-block;
 }
-#hero span a {
+#hero span a{
     color: #3bb75e;
     margin-top: 10px;
     font-size: 1rem;
     font-weight: 500;
     padding: 20px 0 10px;
+    text-align: right;
 }
 #hero span a:hover{
     text-decoration: none;
 }
 #hero .feature {
     margin-top: 150px;
+    width: 100%;
 }
 #hero .feature p {
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.4px;
+    margin: 0 0 12px;
 }
+#hero .feature a {
+    color: #011B33;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-size: 500;
+    text-align: right;
+}
+#hero .fe-1 img{
+    display: inline-block;
+    width: 100px;
+    height: 28px;
+}
+#hero .fe-2 {
+    text-align: right;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 1.6rem;
+    width: 100%;
+}
+#hero .feature i {
+    font-size: 40px;
+    padding-right: 15px;
+    color: #0ba4db;
+}
+
 
 /* media query */
 @media (max-width: 477px) {
