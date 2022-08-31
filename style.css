@@ -130,10 +130,14 @@ body {
     font-size: 1.6rem;
     width: 100%;
 }
+#hero .fe-2 a:hover{
+    text-decoration: none;
+}
 #hero .feature i {
     font-size: 40px;
     padding-right: 15px;
     color: #0ba4db;
+    cursor: pointer;
 }
 
 
