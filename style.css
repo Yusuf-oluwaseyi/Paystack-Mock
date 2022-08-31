@@ -154,11 +154,16 @@ body {
 }
 #content .cont-h {
     margin-bottom: 100px;
+    padding-left: 150px;
 }
 #content .c-feature img {
     width: 100%;
 }
 #content .point {
+    margin-bottom: 50px;
+}
+#content .c-top{
+    padding-top: 20px;
     margin-bottom: 50px;
 }
 #content .c-feature1 h3{
@@ -171,6 +176,7 @@ body {
     font-weight: 400;
     margin: 20px 0;
     line-height: 28px;
+    letter-spacing: -0.19px;
 }
 #content .c-feature1 span a{
     color: #3bb75e;
@@ -205,6 +211,9 @@ body {
     height: 12px;
     background-color: #f1fef4;
     margin-right: 2px;
+}
+#content video {
+    width: 100%;
 }
 
 /* media query */
