@@ -141,7 +141,7 @@ body {
 }
 /* content part */
 #content {
-    padding: 150px 40px;
+    padding: 150px 0px 40px;
 }
 #content h2 {
     font-size: 45px;
@@ -156,7 +156,6 @@ body {
     margin-bottom: 100px;
 }
 #content .c-feature img {
-    /* height: 80px; */
     width: 100%;
 }
 #content .point {
@@ -171,6 +170,7 @@ body {
     font-size: 19px;
     font-weight: 400;
     margin: 20px 0;
+    line-height: 28px;
 }
 #content .c-feature1 span a{
     color: #3bb75e;
