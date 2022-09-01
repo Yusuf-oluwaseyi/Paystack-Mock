@@ -154,7 +154,7 @@ body {
 }
 #content .cont-h {
     margin-bottom: 100px;
-    padding-left: 150px;
+    padding-left: 110px;
 }
 #content .c-feature img {
     width: 100%;
@@ -215,11 +215,70 @@ body {
 #content video {
     width: 100%;
 }
-
+/* Card section */
+#content .card-img{
+    background-image: url(img/checked-pattern-blue.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.3; */
+    z-index: -1000;
+}
+#content .card .card-icon {
+    margin-bottom: 10px;
+}
+#content .card h2 {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: left;
+}
+#content .card img {
+    height: 80px;
+    align-items: left;
+    margin-top: -10px;
+}
+#content .card .card-fe {
+    border: 1px solid #f0f2f3;
+    border-radius: 6px;
+    box-shadow:  0px 1px 6px rgba(0,0,0,0.02);
+    padding: 48px 32px;
+    background: white;
+    height: 100%;
+}
+#content .card .card-fe p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #011B33;
+}
+#content .card .card-body h4 {
+    font-size: 24px;
+    line-height: 33.6px;
+    color: #011B33;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#content .card .card-body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #011B33;
+    line-height: 25.6px;
+}
+#content .card .card-body span i {
+    color: #3bb75e;
+    width: 20px;
+    height: 12px;
+    background-color: #f1fef4;
+    margin-right: 2px;
+    cursor: pointer;
+}
 /* media query */
 @media (max-width: 477px) {
     #hero h1 {
         width: 100%;
         font-size: 24px ;
+    }
+    #content .cont-h {
+        padding-left: 40px;
     }   
 }
