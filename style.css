@@ -142,6 +142,7 @@ body {
 /* content part */
 #content {
     padding: 150px 0px 40px;
+    position: relative;
 }
 #content h2 {
     font-size: 45px;
@@ -222,55 +223,85 @@ body {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    /* opacity: 0.3; */
-    z-index: -1000;
+    padding: 50px 0px;
+    background-color: #eaf6fc;
 }
-#content .card .card-icon {
-    margin-bottom: 10px;
+#content .card-img .cont-h {
+    margin-bottom: 50px;
 }
-#content .card h2 {
+#content .card-icon {
+    margin-bottom: 20px;
+}
+#content .card-img h2 {
     font-size: 45px;
     font-weight: 800;
     text-align: left;
 }
-#content .card img {
+#content .card-img p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #011B33;
+}
+#content .card-fe img {
     height: 80px;
     align-items: left;
     margin-top: -10px;
 }
-#content .card .card-fe {
+#content .card-fe {
     border: 1px solid #f0f2f3;
     border-radius: 6px;
     box-shadow:  0px 1px 6px rgba(0,0,0,0.02);
-    padding: 48px 32px;
+    padding: 40px 32px;
     background: white;
     height: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
-#content .card .card-fe p {
+#content .card-fe:hover {
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.05);
+}
+#content .card-fe p {
     font-size: 16px;
     font-weight: 400;
     color: #011B33;
 }
-#content .card .card-body h4 {
+#content .card-body h4 {
     font-size: 24px;
     line-height: 33.6px;
     color: #011B33;
     font-weight: 600;
     margin-bottom: 10px;
 }
-#content .card .card-body p {
+#content .card-body p {
     font-size: 16px;
     font-weight: 400;
     color: #011B33;
     line-height: 25.6px;
+    margin-bottom: 10px;
 }
-#content .card .card-body span i {
+#content .card-body span i {
     color: #3bb75e;
     width: 20px;
     height: 12px;
     background-color: #f1fef4;
     margin-right: 2px;
     cursor: pointer;
+}
+#content .card-body span a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #011B33;
+}
+#content .card-body span a:hover{
+    text-decoration: none;
+}
+/* card-logo section */
+#content .c-logo img{
+    height: 28px;
+    margin-bottom: 20px;
+}
+#content .card-logo {
+    margin-bottom: 40px;
 }
 /* media query */
 @media (max-width: 477px) {
