@@ -118,9 +118,9 @@ body {
     text-align: right;
 }
 #hero .fe-1 img{
-    display: inline-block;
-    width: 100px;
+    /* display: inline-block; */
     height: 28px;
+    margin-left: 12px;
 }
 #hero .fe-2 {
     text-align: right;
@@ -303,6 +303,40 @@ body {
 #content .card-logo {
     margin-bottom: 40px;
 }
+/* Partner sections */
+#content .partner {
+    background-image: url(img/circular-pattern.png);
+    top: -100px;
+    background-size: 700px 700px;
+    background-position: calc(100% + 200px);
+    background-repeat: no-repeat;
+    background-color: #f9fbfc;
+    padding: 50px 0;
+}
+#content .partner img {
+    height: 28px;
+}
+#content .partner .cont-h {
+    margin-bottom: 50px;
+}
+#content .partner .partner-p {
+    margin-bottom: 40px;
+}
+#content .partner .p-img img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    float: left;
+    margin-top: 10px;
+}
+#content .partner .p-img h6 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+#content .partner .p-img p {
+    font-size: 15px;
+}
+
 /* media query */
 @media (max-width: 477px) {
     #hero h1 {
