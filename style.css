@@ -21,11 +21,11 @@ body {
     margin-left: 8px;
     margin-top: 5px;
 }
-
 /* button */
 .normal {
     background-color: #3bb75e;
     color: #fff;
+    font-weight: 500;
 }
 
 /* nav bar */
@@ -60,7 +60,6 @@ body {
     font-family: 'Roboto';
     font-size: 3rem;
     font-weight: 800;
-    width: 60%;
     margin-bottom: 10px;
     text-align: left;
     line-height: 1.2;
@@ -71,7 +70,7 @@ body {
     line-height: 30px;
     letter-spacing: -0.2px;
     font-weight: 400;
-    width: 50%;
+    /* width: 50%; */
     margin-bottom: 10px;
 }
 #hero .white{
@@ -142,7 +141,6 @@ body {
 /* content part */
 #content {
     padding: 150px 0px 40px;
-    position: relative;
 }
 #content h2 {
     font-size: 45px;
@@ -303,6 +301,10 @@ body {
 #content .card-logo {
     margin-bottom: 40px;
 }
+#content .c-head {
+    padding-left: 110px;
+    margin-right: 15px;
+}
 /* Partner sections */
 #content .partner {
     background-image: url(img/circular-pattern.png);
@@ -337,11 +339,90 @@ body {
     font-size: 15px;
 }
 
+/* footer section */
+#footer {
+    position: relative;
+    margin: 100px 50px;
+    color: #fff;
+}
+#footer .banner1 p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px  40px 0 40px;
+    letter-spacing: 1px;
+    color: #011B33;
+}
+#footer .banner1 h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #011B33;
+    padding: 0 40px;
+}
+#footer .banner1-img { 
+    position: absolute;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+#footer .banner1-img img {
+    background-size: cover;
+    width: 100%;
+}
+#footer .f-body {
+    padding-top: 60px;
+}
+#footer .ban-btn {
+    padding-top: 160px;
+    margin-right: 40px;
+}
+#footer .normal:hover {
+    color: #fff;
+}
+#footer button {
+    font-weight: 500;
+    float: right;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#footer .footer-link {
+    color: #011B33;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+#footer .l-head {
+    padding-left: 40px;
+}
+#footer .footer-link h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#footer .footer-link ul {
+    padding-left: 0px;
+}
+#footer .footer-link li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+#footer .footer-link a {
+    color: #011B33;
+    font-weight: 400;
+    font-size: 16px;
+}
+#footer .footer-link a:hover {
+    color: #0ba4db;
+    text-decoration: none;
+}
 /* media query */
 @media (max-width: 477px) {
     #hero h1 {
         width: 100%;
         font-size: 24px ;
+    }
+    #hero p {
+        width: 100%;
     }
     #content .cont-h {
         padding-left: 40px;
